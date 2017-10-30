@@ -1,0 +1,12 @@
+{
+  "name": "gdax-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "jeffhollan@outlook.com",
+  "license": "MIT",
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "gdax": "^0.4.2"
+  }
+}
