@@ -4,6 +4,9 @@
   "description": "",
   "main": "app.js",
   "author": "jeffhollan@outlook.com",
+  "scripts": {
+    "start": "node app.js"
+  },
   "license": "MIT",
   "dependencies": {
     "azure-event-hubs": "0.0.8",
