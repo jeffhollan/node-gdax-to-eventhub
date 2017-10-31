@@ -12,7 +12,7 @@ client.open().then(function() {
 })
 
 websocket.on('message', data => {
-    sender.send({ contents: JSON.stringify(data)});
+    sender.send(JSON.stringify(data));
     console.log("sent");
     /* 
     { 
